@@ -3,7 +3,7 @@ import { GoogleLogin } from "@react-oauth/google";
 
 const GoogleLoginButton = () => {
   const handleSuccess = async () => {
-    window.location.href = "http://localhost:5000/auth/google";
+    window.location.href = "https://expense-tracker-fyl2.onrender.com/auth/google";
   };
 
   return (
