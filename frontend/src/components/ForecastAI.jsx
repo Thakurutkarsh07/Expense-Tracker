@@ -54,7 +54,7 @@ const getNextMonthForecastTitle = () => {
     const formattedSummary = formatSummary(expenseSummary);
 
     try {
-      const res = await axios.post('http://localhost:5000/api/ai/forecast', {
+      const res = await axios.post('https://expense-tracker-fyl2.onrender.com/api/ai/forecast', {
         summary: formattedSummary,
       });
 
