@@ -86,10 +86,36 @@ root/
 ### 🔁 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Thakurutkarsh07/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/Thakurutkarsh07/Expense-Tracker.git
+cd Expense-Tracker
 ```
 
+---
+## 🔑 Google OAuth Setup
+
+To enable Google login, you need to obtain a **Client ID** and **Client Secret** from Google Cloud Console:
+
+### 🔧 Steps:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
+2. Click **"Select a project"** → Create a new one (or choose existing)
+3. On the left menu, go to **APIs & Services > OAuth consent screen**
+   - Choose **External** for user type
+   - Fill in App Name, Support Email, and Developer Info
+   - Save and continue (scopes & test users can be skipped or filled as needed)
+4. Now go to **Credentials > Create Credentials > OAuth Client ID**
+   - Choose **Web Application**
+   - Add authorized redirect URIs:
+     ```
+     http://localhost:5000/auth/google/callback
+     ```
+   - Add authorized JavaScript origins:
+     ```
+     http://localhost:5173
+     ```
+   - Click **Create**
+
+5. Copy the generated **Client ID** and **Client Secret**
 ---
 
 ### 🖥️ 2. Start the Backend
@@ -185,9 +211,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📝 License
 
-MIT
-
----
 
