@@ -14,7 +14,7 @@ router.get("/google/callback",
   (req, res) => {
     const { token, user } = req.user;
     // Redirect with token (or send it as response)
-    res.redirect(`http://localhost:5173/oauth-success?token=${token}&name=${user.name}`);
+    res.redirect(`https://expense-tracker-1-70ug.onrender.com/oauth-success?token=${token}&name=${user.name}`);
   });
 
 module.exports = router;
