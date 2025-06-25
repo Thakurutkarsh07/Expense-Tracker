@@ -193,7 +193,30 @@ npm run dev
 * **Real-time AI Results**: All calculations are done via Gemini AI and returned as structured JSON for display
 
 ---
+## 📸 Screenshots
 
+### 📈 Login
+![AI Budget](./screenshots/Screenshot%202025-06-25%20123801.png)
+
+### ➕ User Profile  
+![User Profile](./screenshots/Screenshot%202025-06-25%20123749.png)
+
+### 💰 Dashboard Overview  
+![Dashboard](./screenshots/Screenshot%202025-06-25%20123708.png)
+
+### 📊 Expense Category Breakdown  
+![Category Chart](./screenshots/Screenshot%202025-06-25%20131215.png)
+
+### 📆 Monthly Trends  
+![Monthly Trends](./screenshots/Screenshot%202025-06-25%20131225.png)
+
+### Total Expenses
+![Expenses](./screenshots/Screenshot%202025-06-25%20123737.png)
+
+### 🔮 AI Powered Smart Budget & Saving Planner
+![Forecast](./screenshots/Screenshot%202025-06-25%20132044.png)
+
+---
 ## 💡 Future Enhancements
 
 * Export reports to PDF/Excel
