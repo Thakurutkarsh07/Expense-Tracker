@@ -17,7 +17,7 @@ const SavingPlanner = ({ averageSpending }) => {
     setError('');
 
     try {
-      const res = await axios.post('http://localhost:5000/api/ai/budget', {
+      const res = await axios.post('https://expense-tracker-fyl2.onrender.com/api/ai/budget', {
         averageSpending,
         goalAmount,
         income,
