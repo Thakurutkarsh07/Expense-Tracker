@@ -234,5 +234,16 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
+## 📬 Contact
+
+If you have any questions, feedback, or feature suggestions, feel free to reach out!
+
+- 📧 Email: [thakurutkarsh.0700@gmail.com](mailto:thakurutkarsh.0700@gmail.com)
+- 🐙 GitHub: [github.com/Thakurutkarsh07](https://github.com/Thakurutkarsh07)
+- 🌐 Live App: [https://expense-tracker-1-70ug.onrender.com](https://expense-tracker-1-70ug.onrender.com)  
+  _(Please allow 1–2 minutes for the server to start due to Render’s free tier limitations.)_
+
+---
+
 
 
